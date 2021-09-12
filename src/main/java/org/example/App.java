@@ -1,3 +1,8 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 1 Solution
+ *  Copyright 2021 Sabrina Lopez
+ */
+
 package org.example;
 
 import java.util.Scanner;
@@ -8,7 +13,7 @@ public class App {
         System.out.println("\nWhat is the quote? "); //output #1
 
         Scanner scannedQuote = new Scanner(System.in); //scan for quote
-        String quote= scannedQuote.nextLine();
+        String quote = scannedQuote.nextLine();
 
         System.out.println("\nWho said it? "); //output #2
 
